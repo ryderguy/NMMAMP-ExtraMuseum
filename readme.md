@@ -304,6 +304,8 @@ and there's not really anything to be done about it.
 8. then cp /data/local/tmp/su /system/bin/su chmod 6755 /system/bin/su
 9. see if you have su. su --version you might have to reset then open adb shell then do the command
 
+### overclocking 
+run the 
 
 ## To Do
 Not that much anymore!
