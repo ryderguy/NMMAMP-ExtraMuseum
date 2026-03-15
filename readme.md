@@ -1,5 +1,5 @@
 # Namco Musem - My Arcade Mini Player - Extra Musem
-Version 2
+Version 2 
 
 ## USE OF THIS SOFTWARE IS 100% ENTIRELY AT YOUR OWN RISK. WHILE IT HAS BEEN TESTED,
 NO GUARANTEE OR SUPPORT IS IMPLIED OR PROMISED!
@@ -331,6 +331,8 @@ https://www.reddit.com/r/miniSNESmods/comments/97bm5v/additional_icon_pack_20_fo
 
 Various elements of this use the font "Namco" by Akihiro, which can be found here:
 https://www.dafont.com/namco.font
+
+new thing has been added in version 2 by ryder
 
 Screenshots and thumbnails included were collated and arranged by me, but remain the
 property of their original creators and companies, and are included here for illustrative
