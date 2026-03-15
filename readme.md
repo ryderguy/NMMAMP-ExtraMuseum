@@ -65,8 +65,10 @@ this overclocks the cpu it was at 240mhz but if you run the overclock script it 
 1.run the overclock.bat
 2.done 
 
-
-
+#reset button setup 
+* this will make the reset button bring to the select museum screen after holding for 2 seconds
+* if you want to keep the overclock download the one what is just resetbuttonsetup 
+* if you run reset button setup with no overclock and you have it overclock it will make it not overclocked anymore
 
 
 Knowing how to use RetroArch is beyond scope here - the intention is currently to get
