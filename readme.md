@@ -49,6 +49,26 @@ https://www.dafont.com/namco.font
 ### What is this not?
 A collection of ROMs or emulators - you'll have to find and add those yourself.
 
+# how to get root 
+1. install run run_me_first_after_readme.bat
+2. afte thats installed run the root.bat
+3. open cmd type cd C:\android\platform-tools
+4. type adb shel
+5. then test if it says uid=0(root) this isnt actual root yet
+6. then do mount -o remount,rw /system
+7. adb push su /data/local/tmp/
+8. then cp /data/local/tmp/su /system/bin/su chmod 6755 /system/bin/su
+9. see if you have su. su --version you might have to reset then open adb shell then do the command
+
+# overclocking 
+this overclocks the cpu it was at 240mhz but if you run the overclock script it will be at 1248mhz
+1.run the overclock.bat
+2.done 
+
+
+
+
+
 Knowing how to use RetroArch is beyond scope here - the intention is currently to get
 everything onto the Namco Museum My Arcade Mini Player that you need to launch RetroArch
 and play games with it, but beyond that you'll have to find information elsewhere on what
@@ -292,20 +312,6 @@ anything. If this happens, run `select  homeapp.bat` to reset that choice.
 * Certain RetroArch cores perform very poorly on this device because it's quite low
 powered - SNES, GBA, and any Arcade games after like 1984 are going to run really poorly,
 and there's not really anything to be done about it.
-
-### how to get root 
-1. install run run_me_first_after_readme.bat
-2. afte thats installed run the root.bat
-3. open cmd type cd C:\android\platform-tools
-4. type adb shel
-5. then test if it says uid=0(root) this isnt actual root yet
-6. then do mount -o remount,rw /system
-7. adb push su /data/local/tmp/
-8. then cp /data/local/tmp/su /system/bin/su chmod 6755 /system/bin/su
-9. see if you have su. su --version you might have to reset then open adb shell then do the command
-
-### overclocking 
-run the 
 
 ## To Do
 Not that much anymore!
