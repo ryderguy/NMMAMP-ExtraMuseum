@@ -1,5 +1,5 @@
 # Namco Musem - My Arcade Mini Player - Extra Musem
-Version 1.0.1.3
+Version 2
 
 ## USE OF THIS SOFTWARE IS 100% ENTIRELY AT YOUR OWN RISK. WHILE IT HAS BEEN TESTED,
 NO GUARANTEE OR SUPPORT IS IMPLIED OR PROMISED!
@@ -126,12 +126,6 @@ Check you've installed the Android SDK Platform Tools where you think you did. I
 didn't install them to `c:\android\platform-tools` then you'll need to change the path at
 the top of each .bat file by hand to reflect reality.
 
-#### Root failed
-This could be for a couple of reasons:
-
-* Windows couldn't figure out the drivers for the device - see https://stackoverflow.com/questions/15721778/adb-no-devices-found and follow the answer by António Almeida. On my Windows 10 machine I didn't have to do anything, but on my Windows 8.1 machine I had to do that extra step.
-* Your USB cable isn't transmitting data, only charge - try a different cable!
-
 ## Tested RetroArch Cores
 
 This is quite a low powered Android device under the hood, so many RetroArch cores are
@@ -147,15 +141,14 @@ Namco games (so no NeoGeo beyond the Pocket Color.)
 These systems either don't have fast enough emulation to be viable, or the hardware
 controls of the device aren't numerous enough to be worthwhile even if they were:
 
-* SNES
-* GameBoy Advance
+* SNES (might be playable with the overclock)
 * Arcade games beyond the early 80s
 * Consoles passed the Genesis
 
 ### Tested Cores
 
 #### Fully Playable
-
+* doom
 * FCEUmm - Famicom/NES
 * Gambatte - Game Boy/Game Boy Color
 * Genesis Plus GX - Genesis/MegaDrive & SG1000
@@ -295,15 +288,26 @@ set_extra_launcher.bat if you want to get it all back again.
 * If something causes a crash, occasionally that will reset the system's launcher choice.
 This means that when you restart, it will pop up a stock Android selection to choose
 whether the stock launcher or the new one should start - but you can't click on or select 
-anything. If this happens, run `utils\set_extra_launcher.bat` to reset that choice.
+anything. If this happens, run `select  homeapp.bat` to reset that choice.
 * Certain RetroArch cores perform very poorly on this device because it's quite low
 powered - SNES, GBA, and any Arcade games after like 1984 are going to run really poorly,
 and there's not really anything to be done about it.
 
+### how to get root 
+1. install run run_me_first_after_readme.bat
+2. afte thats installed run the root.bat
+3. open cmd type cd C:\android\platform-tools
+4. type adb shel
+5. then test if it says uid=0(root) this isnt actual root yet
+6. then do mount -o remount,rw /system
+7. adb push su /data/local/tmp/
+8. then cp /data/local/tmp/su /system/bin/su chmod 6755 /system/bin/su
+9. see if you have su. su --version you might have to reset then open adb shell then do the command
+
+
 ## To Do
 Not that much anymore!
 
-* Make the Reset button take you back to the main menu
 * Add button mappings per core/system so they make more sense.
 * Extend RetroArch core and ROM scripts to allow drag-and-drop of single files
 * macOS version, as this is all just ADB commands anyway...
