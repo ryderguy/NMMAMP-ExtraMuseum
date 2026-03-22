@@ -50,10 +50,10 @@ https://www.dafont.com/namco.font
 A collection of ROMs or emulators - you'll have to find and add those yourself.
 
 # how to get root 
-1. install run run_me_first_after_readme.bat
-2. afte thats installed run the root.bat
+1. install run_me_first_after_readme.bat then run it 
+2. after that is installed run the root.bat
 3. open cmd type cd C:\android\platform-tools
-4. type adb shel
+4. type adb shell
 5. then test if it says uid=0(root) this isnt actual root yet
 6. then do mount -o remount,rw /system
 7. adb push su /data/local/tmp/
