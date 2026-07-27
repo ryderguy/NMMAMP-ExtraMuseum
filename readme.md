@@ -323,14 +323,6 @@ anything. If this happens, run `select  homeapp.bat` to reset that choice.
 powered - SNES, GBA, and any Arcade games after like 1984 are going to run really poorly,
 and there's not really anything to be done about it.
 
-## To Do
-Not that much anymore!
-
-* Add button mappings per core/system so they make more sense.
-* Extend RetroArch core and ROM scripts to allow drag-and-drop of single files
-* macOS version, as this is all just ADB commands anyway...
-* A GUI so it's not all just ADB commands in scripts!
-
 ## Copyright stuff
 
 All scripts and frontend artwork are entirely original and written/created by me, Terry
@@ -348,7 +340,7 @@ Screenshots and thumbnails included were collated and arranged by me, but remain
 property of their original creators and companies, and are included here for illustrative
 purposes or as transformed works.
 
-## what im working on
+## what im working on/todo
 1. booting any other  small os  without wiping the drive beucse that will brick it also from an computers hdd and or ssd trying tiny core right now
 2. chroot app that works fine with an keybored
 3. bringing the android 4.4 kitkat gui back
