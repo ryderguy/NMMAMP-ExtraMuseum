@@ -5,6 +5,8 @@ Version 2
 i kinda went all out with the linux version
 but i have made a working android app to put onto the system
 
+#the new apk is for the ui for commands and everything but built into the system
+
 ## USE OF THIS SOFTWARE IS 100% ENTIRELY AT YOUR OWN RISK. WHILE IT HAS BEEN TESTED,
 NO GUARANTEE OR SUPPORT IS IMPLIED OR PROMISED!
 
