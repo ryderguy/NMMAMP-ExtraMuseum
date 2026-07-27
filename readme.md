@@ -1,6 +1,10 @@
 # Namco Musem - My Arcade Mini Player - Extra Musem
 Version 2 
 
+# sorry windows users
+i kinda went all out with the linux version
+but i have made a working android app to put onto the system
+
 ## USE OF THIS SOFTWARE IS 100% ENTIRELY AT YOUR OWN RISK. WHILE IT HAS BEEN TESTED,
 NO GUARANTEE OR SUPPORT IS IMPLIED OR PROMISED!
 
@@ -19,8 +23,9 @@ So I set about to see if I could expand the selection of games - I dared to drea
 find an editable game list somewhere, but no... BUT! It's an Android device with developer
 mode turned on - so I set about writing a new launcher APK...
 
+#
 ### What is this?
-A set of Windows batch files and an Android APK to allow you to install and run RetroArch
+A set of Windows batch files  Android APKs and sh files for linux to allow you to install and run RetroArch
 on the Namco Museum My Arcade Mini Player, and an entirely custom-made frontend which you
 can use to launch whatever games you want using whatever RetroArch cores you want.
 Granting you an Extra Museum, if you will.
