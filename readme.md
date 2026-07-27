@@ -8,7 +8,8 @@ but i have made a working android app to put onto the system
 #the new apk is for the ui for commands and everything but built into the system
 
 ## USE OF THIS SOFTWARE IS 100% ENTIRELY AT YOUR OWN RISK. WHILE IT HAS BEEN TESTED,
-NO GUARANTEE OR SUPPORT IS IMPLIED OR PROMISED!
+NO GUARANTEE OR SUPPORT IS IMPLIED OR PROMISED! 
+PLEASE DONT TRY FULLY FORMATING THE DEFULT OS ON THIS  IT WILL COMPLTLY BRICK THE SYSTEM EVEN THE UNBRICK TOOL WILL NOT WORK 
 
 ### Why is this?
 While I enjoyed the built-in selection of games in the Namco Museum - My Arcade Mini
