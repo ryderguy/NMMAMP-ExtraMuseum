@@ -347,3 +347,9 @@ new thing has been added in version 2 by ryder
 Screenshots and thumbnails included were collated and arranged by me, but remain the
 property of their original creators and companies, and are included here for illustrative
 purposes or as transformed works.
+
+## what im working on
+1. booting any other  small os  without wiping the drive beucse that will brick it also from an computers hdd and or ssd trying tiny core right now
+2. chroot app that works fine with an keybored
+3. bringing the android 4.4 kitkat gui back
+
