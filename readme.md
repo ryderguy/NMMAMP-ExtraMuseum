@@ -345,4 +345,6 @@ purposes or as transformed works.
 1. booting any other  small os i have got chroot working
 2. chroot app that works fine with an keybored
 3. bringing the android 4.4 kitkat gui back (i am working on that right now and will post the update on that later)
+4. wifi from adb
+5. getting a bootloader on this thing 
 
