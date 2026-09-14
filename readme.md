@@ -9,7 +9,7 @@ but i have made a working android app to put onto the system
 
 ## USE OF THIS SOFTWARE IS 100% ENTIRELY AT YOUR OWN RISK. WHILE IT HAS BEEN TESTED,
 NO GUARANTEE OR SUPPORT IS IMPLIED OR PROMISED! 
-PLEASE DONT TRY FULLY FORMATING THE DEFULT OS ON THIS  IT WILL COMPLTLY BRICK THE SYSTEM EVEN THE UNBRICK TOOL WILL NOT WORK 
+PLEASE DONT TRY FULLY FORMATING THE DEFAULT OS ON THIS  IT WILL COMPLETELY BRICK THE SYSTEM EVEN THE UNBRICK TOOL WILL NOT WORK 
 
 ### Why is this?
 While I enjoyed the built-in selection of games in the Namco Museum - My Arcade Mini
@@ -178,7 +178,7 @@ controls of the device aren't numerous enough to be worthwhile even if they were
 ### Tested Cores
 
 #### Fully Playable
-* doom
+* doom (you might need vsync on)
 * FCEUmm - Famicom/NES
 * Gambatte - Game Boy/Game Boy Color
 * Genesis Plus GX - Genesis/MegaDrive & SG1000
@@ -189,7 +189,7 @@ controls of the device aren't numerous enough to be worthwhile even if they were
 * SMS Plus - Game Gear/Master System
 * Stella 2014 - Atari 2600
 
-#### Working but too slow (with workaround)
+#### Working but too slow (with workaround) (they are a little more playable with overclock)
 
 * Nestopia - Famicom/NES, use FCEUmm instead
 * Stella - Atari 2600, use Stella 2014 instead
@@ -202,7 +202,7 @@ controls of the device aren't numerous enough to be worthwhile even if they were
 ### Core/Game Overrides
 
 Core and game overrides for a variety of games and cores are provided in
-`retroarch\config` to apply sensible default configuration options and to center the image
+`retroarch\config` to apply sensible default configuration options and to center the image 
 in the middle of the very tall screen of the Namco Museum My Arcade Mini Player but with
 the right aspect ratio.
 
@@ -214,7 +214,7 @@ there.
 The `utils` directory contains various scripts with various functions, explained below.
 
 ### extract_stock_roms.bat
-Downloads the `GAME` directory from the device onto yoour computer. This directory
+Downloads the `GAME` directory from the device onto your computer. This directory
 contains the stock ROMs and related frontend artwork, and some other bits and pieces
 (including a full set of NeoGeo BIOS files for some reason...)
 
@@ -319,7 +319,7 @@ set_extra_launcher.bat if you want to get it all back again.
 This means that when you restart, it will pop up a stock Android selection to choose
 whether the stock launcher or the new one should start - but you can't click on or select 
 anything. If this happens, run `select  homeapp.bat` to reset that choice.
-* Certain RetroArch cores perform very poorly on this device because it's quite low
+* Certain RetroArch cores perform very poorly on this device because it's quite low 
 powered - SNES, GBA, and any Arcade games after like 1984 are going to run really poorly,
 and there's not really anything to be done about it.
 
@@ -327,6 +327,7 @@ and there's not really anything to be done about it.
 
 All scripts and frontend artwork are entirely original and written/created by me, Terry
 Goodwin, other than anything to do with RetroArch of course!
+and also ryderguy
 
 System icons by Reddit user faustbear, and can be found in their original form here:
 https://www.reddit.com/r/miniSNESmods/comments/97bm5v/additional_icon_pack_20_for_hakchicenescsnesc/
@@ -341,7 +342,7 @@ property of their original creators and companies, and are included here for ill
 purposes or as transformed works.
 
 ## what im working on/todo
-1. booting any other  small os  without wiping the drive beucse that will brick it also from an computers hdd and or ssd trying tiny core right now
+1. booting any other  small os i have got chroot working
 2. chroot app that works fine with an keybored
-3. bringing the android 4.4 kitkat gui back
+3. bringing the android 4.4 kitkat gui back (i am working on that right now and will post the update on that later)
 
