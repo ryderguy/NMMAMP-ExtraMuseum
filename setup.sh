@@ -35,8 +35,6 @@ show_menu() {
     echo -e " 12) ${RED}Remove All RetroArch Data${NC} (cores/playlists/thumbnails)"
     echo -e " 13) ${RED}Remove All ROMs${NC} (remove_roms)"
     echo -e " 14) ${GREEN}Pull Complete OS Firmware Backup Image${NC} (High-Speed Direct Mode)"
-    echo -e " 15) ${GREEN}Boot Into Headless Linux Server OS${NC} (Dual-Boot / Chroot)"
-    echo -e " 16) ${GREEN}Share PC Internet Over USB${NC} (reverse-tether to device)"
     echo -e " q)  Exit"
     echo -e "${BLUE}======================================================${NC}"
     echo -n "Select an option [1-16 or q]: "
